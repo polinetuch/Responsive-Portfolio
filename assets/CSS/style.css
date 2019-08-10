@@ -3,16 +3,20 @@
 } */
 
 body {
-  background-color: black;
+  background-color: #252835;
+  font-family: sans-serif;
 }
 
-.navbar {
-  color: white;
-  padding: 50px;
+#navbarStyling {
+  display: flex;
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #e877a6;
   font-size: 18pt;
-  margin-bottom: 30px;
+  color: #252835;
+  border-radius: 10px;
+  position: static;
 }
-
 /* .nav-Poli {
   float: left;
   background-color: #4aaaa5;
@@ -47,18 +51,19 @@ body {
 } */
 
 .about-me {
-  background-color: #ffffff;
-  border: 0.5px solid #cccccc;
   padding: 20px;
   height: auto;
   min-height: 350px;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 20px;
-  color: #4aaaa5;
-  font-weight: bold;
-  font-size: 18pt;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #252835;
+  font-size: 12pt;
+  font-family: sans-serif;
+}
+
+p {
+  color: white;
 }
 .image {
   float: left;
