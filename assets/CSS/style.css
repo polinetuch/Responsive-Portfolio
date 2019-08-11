@@ -4,7 +4,7 @@
 
 body {
   background-color: #252835;
-  font-family: sans-serif;
+  font-family: "Source Code Pro", monospace;
 }
 
 #navbarStyling {
@@ -57,8 +57,8 @@ p {
   background-color: #e877a6;
   color: white;
   text-align: center;
-  padding: 20px;
-  margin-top: 20px;
+  padding: 70px;
+  margin-top: 100%;
   font-family: Arial, Helvetica, sans-serif;
   border: 8px solid;
   border-image: linear-gradient(
