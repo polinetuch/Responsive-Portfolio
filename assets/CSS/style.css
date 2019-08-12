@@ -9,14 +9,13 @@ body {
 }
 
 #navbarStyling {
-  display: flex;
-  display: inline-block;
-  margin-top: 20px;
+  width: 100%;
   background-color: #e877a6;
   font-size: 18pt;
-  color: #252835;
-  border-radius: 10px;
-  position: static;
+  color: black;
+  padding: 20px;
+  width: 80%;
+  position: fixed;
 }
 .about-me {
   padding: 20px;
@@ -36,7 +35,7 @@ body {
   padding: 10px;
 }
 
-.borderStyle {
+/* .borderStyle {
   margin-top: 20px;
   padding: 20px;
   border: 8px solid;
@@ -48,7 +47,7 @@ body {
       #360670 100%
     )
     1;
-}
+} */
 
 .card {
   margin-right: 25px;
@@ -63,13 +62,17 @@ body {
 }
 
 .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
-  background-color: #e877a6;
+  padding: 40px;
   color: white;
   text-align: center;
-  padding: 70px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16pt;
   border: 8px solid;
+  border-radius: 10px;
   border-image: linear-gradient(
       #23966c 0%,
       #faaa54 25%,
@@ -77,7 +80,7 @@ body {
       #db0768 75%,
       #360670 100%
     )
-    1;
+    1; */
 }
 /* .nav-Poli {
   float: left;
