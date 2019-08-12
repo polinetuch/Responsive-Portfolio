@@ -5,6 +5,7 @@
 body {
   background-color: #252835;
   font-family: "Source Code Pro", monospace;
+  color: white;
 }
 
 #navbarStyling {
@@ -29,16 +30,13 @@ body {
   font-family: sans-serif;
 }
 
-p {
-  color: white;
-}
 .image {
   float: left;
   height: 200px;
   padding: 10px;
 }
 
-#borderStyle {
+.borderStyle {
   margin-top: 20px;
   padding: 20px;
   border: 8px solid;
@@ -52,13 +50,24 @@ p {
     1;
 }
 
+.card {
+  margin-right: 25px;
+  background-color: #252835;
+  border: 2px solid black;
+}
+
+#contactInfo-Style {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 25px;
+}
+
 .footer {
   width: 100%;
   background-color: #e877a6;
   color: white;
   text-align: center;
   padding: 70px;
-  margin-top: 100%;
   font-family: Arial, Helvetica, sans-serif;
   border: 8px solid;
   border-image: linear-gradient(
