@@ -37,47 +37,64 @@
   <body>
     <!-- Navigation Bar  -->
     <div class="container">
-        <nav id="navbarStyling" class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="./index.html">Polinet Uch</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact Me</a>
-              </li>
-              <li class="nav-item dropdown">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Polinet</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html"
+                >About <span class="sr-only"></span
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Github Repositories
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
                 <a
-                  class="nav-link dropdown-toggle"
-                  href="https://github.com/polinetuch"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
+                  class="dropdown-item"
+                  href="https://github.com/polinetuch/giphy-api"
+                  >Action</a
                 >
-                  My Github Repositories
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
 
-      <!-- Div to Store Other Profiles -->
+    <!-- Div to Store Other Profiles -->
+    <div class="container">
       <div class="row" id="contactInfo-Style">
         <!-- LinkedIn Profile -->
         <div class="card" style="width: 15rem;">
@@ -88,12 +105,10 @@
           />
           <div class="card-body">
             <h5 class="card-title">LinkedIn</h5>
-          </div>
-          <div class="card-body">
             <a
               href="https://www.linkedin.com/in/polinet-uch-333037127/"
               class="card-link"
-              >Click Here To View My Linked Profile</a
+              >View My Linked Profile</a
             >
           </div>
         </div>
@@ -107,41 +122,19 @@
           />
           <div class="card-body">
             <h5 class="card-title">Resume</h5>
-          </div>
-          <div class="card-body">
             <a
               href="https://www.linkedin.com/in/polinet-uch-333037127/"
               class="card-link"
-              >Click Here To View My Resume</a
+              >View My Resume</a
             >
           </div>
         </div>
       </div>
-      <!-- Contact Me Through Here -->
-      <!-- <section class="about-me">
-      Contact Me
-      <hr />
-      <form action="action_page.php" class="input-styling">
-        <label for="fname">Name</label>
-        <br />
-        <input type="text" name="fullname" placeholder="Your Name" />
-        <br />
-        <label for="email" id="input-styling">Email</label>
-        <br />
-        <input type="text" placeholder="youremail@gmail.com" />
-        <br />
-        <label for="message">Message</label>
-        <br />
-        <textarea name="Message"></textarea>
-        <br />
-        <input type="submit" value="Submit" />
-      </form>
-    </section> -->
+    </div>
 
-      <!-- Footer -->
-      <div class="row">
-        <footer class="footer">Copyright @ Polinet Uch</footer>
-      </div>
+    <!-- Footer -->
+    <div class="container">
+      <p class="footer">Copyright @ Polinet Uch</p>
     </div>
   </body>
 </html>
